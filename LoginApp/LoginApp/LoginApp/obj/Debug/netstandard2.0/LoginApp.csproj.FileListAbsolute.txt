@@ -1,0 +1,17 @@
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\bin\Debug\netstandard2.0\LoginApp.deps.json
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\bin\Debug\netstandard2.0\LoginApp.dll
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\bin\Debug\netstandard2.0\ref\LoginApp.dll
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\bin\Debug\netstandard2.0\LoginApp.pdb
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.csproj.AssemblyReference.cache
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\obj\Debug\netstandard2.0\view\RegisterPage.xaml.g.cs
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.AssemblyInfoInputs.cache
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.AssemblyInfo.cs
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.dll
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\obj\Debug\netstandard2.0\refint\LoginApp.dll
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\obj\Debug\netstandard2.0\LoginApp.pdb
+C:\Users\user\Documents\Proyecto-movil\LoginApp\LoginApp\LoginApp\obj\Debug\netstandard2.0\view\ListaContactosPage.xaml.g.cs

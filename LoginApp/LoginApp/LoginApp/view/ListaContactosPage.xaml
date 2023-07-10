@@ -1,0 +1,61 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.view.ListaContactosPage"
+             >
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Listado de contactos" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="7"/>
+
+            <!-- Botón Agregar -->
+            <Button Text="Nuevo contacto" x:Name="btnNuevoRegistro" BackgroundColor="Green" TextColor="White" HeightRequest="40" HorizontalOptions="End" Margin="10"
+                    Clicked="btnNuevoregistro_Clicked"/>
+
+            <!-- Cabecera de la tabla -->
+            <Grid BackgroundColor="#343A40" Padding="5">
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                    <!-- Agrega aquí las columnas adicionales -->
+                </Grid.ColumnDefinitions>
+
+                <!-- Etiquetas de la cabecera -->
+                <Label Grid.Row="0" Grid.Column="0" Text="Nombres" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="White" />
+                <Label Grid.Row="0" Grid.Column="1" Text="Edad" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="White" />
+                <Label Grid.Row="0" Grid.Column="2" Text="País" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="White" />
+                <Label Grid.Row="0" Grid.Column="3" Text="Nota" FontSize="16" FontAttributes="Bold" HorizontalTextAlignment="Center" TextColor="White" />
+                <!-- Agrega aquí las etiquetas adicionales -->
+            </Grid>
+
+            <!-- Contenido de la tabla -->
+            <ListView x:Name="contactosListView" ItemsSource="{Binding Contactos}" HasUnevenRows="true">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="*" />
+                                    <!-- Agrega aquí las columnas adicionales -->
+                                </Grid.ColumnDefinitions>
+
+                                <!-- Contenido de cada fila de la tabla -->
+                                <Label Grid.Column="0" Text="{Binding Nombres}" FontSize="14" HorizontalTextAlignment="Center" />
+                                <Label Grid.Column="1" Text="{Binding Edad}" FontSize="14" HorizontalTextAlignment="Center" />
+                                <Label Grid.Column="2" Text="{Binding Pais}" FontSize="14" HorizontalTextAlignment="Center" />
+                                <Label Grid.Column="3" Text="{Binding Nota}" FontSize="14" HorizontalTextAlignment="Center" />
+                                <!-- Agrega aquí los controles adicionales -->
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

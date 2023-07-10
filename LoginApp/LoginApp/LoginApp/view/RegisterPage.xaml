@@ -1,0 +1,87 @@
+﻿<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="LoginApp.view.RegisterPage"
+             BackgroundColor="#989797">
+    <ContentPage.Content>
+        <Frame Margin="40"
+               Padding="-10"
+               BackgroundColor="White"
+               HasShadow="True"
+               BorderColor="#DDE2E6"
+               CornerRadius="10">
+            <StackLayout Spacing="10" Padding="70">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Image Source="https://ucenm.net/tutoriales/images/logo1.png" WidthRequest="60" HeightRequest="40" />
+                    <Label Text="UCENM"
+                           TextColor="#4682B4"
+                           FontSize="20"
+                           FontAttributes="Bold"
+                           HorizontalOptions="Start"
+                           VerticalOptions="Center" />
+                </StackLayout>
+
+                <Entry x:Name="nombrecompleto"
+                       Placeholder="Ingrese nombre completo"
+                       FontSize="15"
+                       MaxLength="20"
+                       HorizontalOptions="Center"
+                       WidthRequest="400"
+                       VerticalOptions="CenterAndExpand" />
+
+                <Entry x:Name="telefono"
+                       Placeholder="Ingrese su teléfono"
+                       FontSize="15"
+                       Keyboard="Telephone"
+                       MaxLength="20"
+                       WidthRequest="400"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand" />
+
+                <Entry x:Name="edad"
+                       Placeholder="Edad"
+                       FontSize="15"
+                       Keyboard="Numeric"
+                       MaxLength="20"
+                       WidthRequest="400"
+                       HorizontalOptions="Center"
+                       VerticalOptions="CenterAndExpand" />
+
+                <Picker x:Name="paisPicker"
+                        Title="Seleccione un país"
+                        FontSize="15"
+                        HorizontalOptions="Center"
+                        WidthRequest="400"
+                        VerticalOptions="CenterAndExpand">
+                    <Picker.ItemsSource>
+                        <!-- Aquí puedes agregar los elementos del ComboBox -->
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Honduras</x:String>
+                            <x:String>Guatemala</x:String>
+                            <x:String>Costa Rica</x:String>
+                            <x:String>El Salvador</x:String>
+                            <x:String>República Dominicana</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+
+                <Editor x:Name="nota"
+                        HeightRequest="80"
+                        Placeholder="Ingrese una nota"
+                        FontSize="15"
+                        MaxLength="30"
+                        HorizontalOptions="FillAndExpand"
+                        VerticalOptions="CenterAndExpand" />
+
+                <Button x:Name="btnSalvar"
+                        Text="Salvar contacto"
+                        TextColor="White"
+                        BackgroundColor="#2ECC71"
+                        FontSize="12"
+                        FontAttributes="Bold"
+                        HorizontalOptions="Center"
+                        WidthRequest="170"
+                        HeightRequest="35" Clicked="btnSalvar_Clicked"/>
+            </StackLayout>
+        </Frame>
+    </ContentPage.Content>
+</ContentPage>
